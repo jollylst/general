@@ -1,21 +1,107 @@
+# # Checklist items:
+# visualizing the problem
+#   start w/ identifying the task
+# details in instructions
+# naming variables
+# not using comments/docstrings
+# not modularizing code
+# not testing code
+#   too lazy to be exhaustive
+# read the traceback
+
+# not developing incrementally
+# keeping track of the steps required to solve the problem
+#   create to do list
+
+# optimizing
+#   don't optimize too early
+
+
+
+
+
+# # Ctrl+C to stop program, 
+# #   triggers a KeyboardInterrupt exception
+
+# #Not good pattern:
+# while True:
+#     try:
+#         x = int(input(": "))
+#     except:
+#         "oops, try again"
+# # If above is the code, try Ctrl+Z
+# while True:
+#     y = input(": ")
+#     try:
+#         x = int(y)
+#     except:
+#         "oops, try again"
+
+
+
+
+
 # dictionaries
 #     .setdefault()
 # recursion
-# problem solving
-# visualizing the problem
-# details in instructions
-# keeping track of the steps required to solve the problem
+    # insert example from test
+    # insert examples or links to recursions (prime, palindrome)
+
 # using tuples
+#   enumerate()
+#         Ex. 1; list(enumerate(someotherlist))
+#         Ex. 2: for a, b in enumerate(list)
+#       Gives you a list of tuples (index, item), etc
+#           the a, b above is unpacking each typle pair
+#   zip()
+#   returning multiple variables
+# #   Example:
+# def f():
+#     return 1, 2  # This is called tuple packing
+
+# a, b = f()  # This is called tuple unpacking
+
+
 # syntax errors
+#   https://i.imgur.com/WRuJV6r.png
+#   look at the traceback
+#   read what the syntax error
+
+
+
 # loops
 #   continue
+#       goes to the beginning/top of loop ON the next iteration
+#   break
+#        leaves the loop (note: only the inner loop if there are more than one)
+
+
+
+
 # lists
 #     enumerate(iterable)
+# list1 = ["a", "b", "c"]
+# list(enumerat(list1))
+# returns: :[(0, 'a'), (1, 'b'), (2, 'c')]
+
+
 #     zip(seq1, seq2)
+
+# list2 = ["z", "y", "x"]
+# list(zip(list1, list2))
+# #[('a', 'z'), ('b', 'y'), ('c', 'x')]
+
+
+
 #     indexing
+
+
+
 # strings
-#     .split()
+#     .split(defaults to white space)
 #     .strip()
+
+
 # # sorted()/.sort() w/ key
 # Example Keys:
 #   len
@@ -40,22 +126,35 @@
 # lst.sort(key=operator.itemgetter(1))
 # print(lst)
 
+
+
+# Reading
 # names of built-in methods
-# debugging
+#   https://docs.python.org/3/library/functions.html
+
+
+# debugging  - checklist
 #     syntax errors
 #     unexpected behavior
+
+
 # formating print
+# https://docs.python.org/3.5/library/string.html
+
+
 # double loops
-# raise
-# naming variables
+
+
+
+
+
 # = (assignment) vs. == (equality)
-# not using comments/docstrings
-# not modularizing code
-# not testing code
-#   too lazy to be exhaustive
-# optimizing
+
+
+
+
 # not knowing the terms (to even know what to look up)
-# not developing incrementally
+
 # # opening files
 # # file read operations
 #     with open syntax
@@ -109,7 +208,6 @@
 
 
 # # misc.
-# assert
 # raise
 # assert
 
