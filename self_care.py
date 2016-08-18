@@ -44,7 +44,30 @@
 # dictionaries
 #     .setdefault()
 # recursion
-    # insert example from test
+    # examples from test.py
+# find the sum of all multiples of 3 or 5 below 500
+# def f10(total=0, n=0):
+#     if n == 500:
+#         return total
+#     if n % 3 == 0 or n % 5 == 0:
+#         return f10(total+n, n+1)
+#     else:
+#         return f10(total, n+1)
+
+# print(f10())
+
+
+# def f10b(total_sum=0, n=1):
+#     if (n % 3 == 0) or (n % 5 == 0):
+#             total_sum += n
+#     if n != 500:
+#         n += 1
+#         return f10(total_sum, n)
+#     else:
+#         return total_sum
+
+# print(f10b())
+
     # insert examples or links to recursions (prime, palindrome)
 
 # using tuples
